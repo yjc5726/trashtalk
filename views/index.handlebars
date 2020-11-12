@@ -1,0 +1,39 @@
+<h1 class="text-center text-white">你想對誰說幹話？</h1>
+<form method="GET" action="/">
+  <div class="m-4" style="display: flex;justify-content:center">
+    <div class="card" style="width: 18rem;">
+      <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+        class="card-img-top" alt="..." style="width:250px;height:200px;margin:auto auto;">
+      <div class="card-body">
+        <p class="card-text text-center">
+          <input type="radio" id="engineer" name="job" value="engineer">
+          工程師
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+        class="card-img-top" alt="..." style="width:250px;height:200px;margin:auto auto;">
+      <div class="card-body">
+        <p class="card-text text-center">
+          <input type="radio" id="designer" name="job" value="designer">
+          設計師
+        </p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+        class="card-img-top" alt="..." style="width:250px;height:200px;margin:auto auto;">
+      <div class="card-body">
+        <p class="card-text text-center">
+          <input type="radio" id="teacher" name="job" value="teacher">
+          老師
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-secondary" style="float:left; margin-left:337px;">產生幹話</button>
+  <textarea name="" id="" cols="80" rows="3" style="float:right;margin-right:337px;">{{trashtalk}}</textarea>
+
+</form>
